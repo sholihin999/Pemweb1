@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+    <script>
+        function fungsici(){
+            let color = document.getElementById("nf1").value;
+            console.log("anda pilih warna :" + color);
+            document.body.style.backgroundColor = color;
+            //let x = document.querySelector("select").value;
+            //document.body.style.backgroundColor = x;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        pilih warna
+        <select name="color" id="nf1" onchange="fungsici()">
+            <option value="red">merah</option>
+            <option value="green">hijau</option>
+            <option value="black">hytam</option>
+            <option value="yellow">kuning</option>
+            <option value="blue">biru</option>
+            <option value="purple">ungu</option>
+        </select>
+    </form>
+</body>
+</html>

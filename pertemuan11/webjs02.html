@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Js</title>
+    <script>
+        let mahasiswa = {
+            nama: "Joko",
+            umur: 20,
+            prodi: {
+                kode : "TI",
+                fakultas : "Teknik",
+                nama : "Teknik Informatika"
+            },
+            ipk : 3.5,
+            grade : function(){
+                if(this.ipk >= 3.5)
+                    return "Cumlaude";
+                else
+                    return "Tidak Cumlaude";
+                
+            }
+        }
+        function cetak(){
+            let area_nf = document.getElementById("nf");
+            area_nf.innerHTML = "Nama Mahasiwa: " + mahasiswa.nama;
+            area_nf.innerHTML = area_nf.innerHTML + "<br>Umur : " + mahasiswa.umur;
+            area_nf.innerHTML = area_nf.innerHTML + "<br>Prodi : " + mahasiswa.prodi.nama;
+            area_nf.innerHTML = area_nf.innerHTML + "<br>IPK : " + mahasiswa.ipk + "<br>Grade : " + mahasiswa.grade();
+        }
+    </script>
+</head>
+<body onload="cetak()">
+    <div id="nf"></div>
+</body>
+</html>

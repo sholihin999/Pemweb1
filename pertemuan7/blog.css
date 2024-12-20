@@ -1,0 +1,111 @@
+body {
+    background-color: grey;
+}
+header .nav-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:powderblue;
+    align-items: center;
+    padding: 10px;
+    margin: -10px;
+}
+.img-item{
+    width: 50px;
+}
+ul.menu {
+    display: flex;
+    list-style: none;
+
+    & li {
+        margin: 5px;
+        
+        & a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color:palegreen;
+    align-items: center;
+    margin: -10px;
+    margin-bottom: 0;
+    font-weight: bold;
+
+    & .sosmed a {
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+
+#banner {
+    margin: -10px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+
+    & .section-1 {
+        margin-right: 5px;
+
+        & .content-1 {
+            background-image: url(https://via.placeholder.com/400x300);
+            background-size: cover;
+
+            & span {
+                background-color: red;
+                color: white;
+                padding: 5px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+}
+        }
+    }
+    & .section-2 {
+        margin-right: 5px;
+
+        & .content-2 {
+            background-image: url(https://via.placeholder.com/400x300);
+            background-size: cover;
+
+            & span {
+                background-color: red;
+                color: white;
+                padding: 5px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+}
+        }
+    }
+    & .section-3 {
+        margin-right: 5px;
+
+        & .content-3 {
+            background-image: url(https://via.placeholder.com/400x300);
+            background-size: cover;
+
+            & span {
+                background-color: red;
+                color: white;
+                padding: 5px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+}
+        }
+    }
+}
